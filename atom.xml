@@ -3,11 +3,11 @@
   <title>死神の小窝</title>
   <icon>https://www.gravatar.com/avatar/9965cf687df3dc092712ceaa4f642847</icon>
   <subtitle>遍地惊喜，任君自取</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://mxs114514.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://mxs114514.github.io/"/>
   <updated>2025-05-31T04:51:22.867Z</updated>
-  <id>http://example.com/</id>
+  <id>https://mxs114514.github.io/</id>
   
   <author>
     <name>死神</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/undefined.html"/>
-    <id>http://example.com/posts/undefined.html</id>
+    <link href="https://mxs114514.github.io/posts/undefined.html"/>
+    <id>https://mxs114514.github.io/posts/undefined.html</id>
     <published>2025-05-31T04:51:22.867Z</published>
     <updated>2025-05-31T04:51:22.867Z</updated>
     
