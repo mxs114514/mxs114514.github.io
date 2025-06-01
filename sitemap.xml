@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mxs114514.github.io/posts/1.html</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mxs114514.github.io/posts/7344.html</loc>
     
     <lastmod>2025-06-01</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://mxs114514.github.io/manifest.json</loc>
     
     <lastmod>2025-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxs114514.github.io/posts/undefined.html</loc>
-    
-    <lastmod>2025-05-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
