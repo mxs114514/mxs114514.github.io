@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mxs114514.github.io/posts/82994edf.html</loc>
+    
+    <lastmod>2025-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mxs114514.github.io/posts/0.html</loc>
     
     <lastmod>2025-06-02</lastmod>
@@ -37,6 +46,20 @@
   </url>
 
   
+  <url>
+    <loc>https://mxs114514.github.io/tags/%E5%86%9B%E4%B9%90%E5%9B%A2/</loc>
+    <lastmod>2025-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://mxs114514.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
