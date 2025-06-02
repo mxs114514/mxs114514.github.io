@@ -6,7 +6,7 @@
   <link href="https://mxs114514.github.io/atom.xml" rel="self"/>
   
   <link href="https://mxs114514.github.io/"/>
-  <updated>2025-06-02T11:31:49.999Z</updated>
+  <updated>2025-06-02T11:31:00.104Z</updated>
   <id>https://mxs114514.github.io/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://mxs114514.github.io/posts/0.html"/>
-    <id>https://mxs114514.github.io/posts/0.html</id>
-    <published>2025-06-02T11:31:37.593Z</published>
-    <updated>2025-06-02T11:31:49.999Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>生活是牢笼</title>
@@ -60,7 +47,7 @@
     <link href="https://mxs114514.github.io/posts/7344.html"/>
     <id>https://mxs114514.github.io/posts/7344.html</id>
     <published>2021-01-11T08:00:00.000Z</published>
-    <updated>2025-06-01T11:32:48.204Z</updated>
+    <updated>2025-06-02T18:10:49.413Z</updated>
     
     <content type="html"><![CDATA[<h1 id="第-1-章-了解-Web-及网络基础"><a href="#第-1-章-了解-Web-及网络基础" class="headerlink" title="第 1 章　了解 Web 及网络基础"></a>第 1 章　了解 Web 及网络基础</h1><h2 id="网络基础-TCP-IP"><a href="#网络基础-TCP-IP" class="headerlink" title="网络基础 TCP/IP"></a>网络基础 TCP/IP</h2><h3 id="TCP-IP-是互联网相关的各类协议族的总称"><a href="#TCP-IP-是互联网相关的各类协议族的总称" class="headerlink" title="TCP/IP 是互联网相关的各类协议族的总称"></a>TCP/IP 是互联网相关的各类协议族的总称</h3><h3 id="最重要的思想：应用层、传输层、网络层和数据链路层，接口连接（抽象还在追我）"><a href="#最重要的思想：应用层、传输层、网络层和数据链路层，接口连接（抽象还在追我）" class="headerlink" title="最重要的思想：应用层、传输层、网络层和数据链路层，接口连接（抽象还在追我）"></a>最重要的思想：应用层、传输层、网络层和数据链路层，接口连接（抽象还在追我）</h3><p>​ <em>应用层决定了向用户提供应用服务时通信的活动。（FTP，DNS）</em><br><em>传输层对上层应用层，提供处于网络连接中的两台计算机之间的数据传输。（TCP，UDP）</em><br><em>网络层用来处理在网络上流动的数据包。数据包是网络传输的最小数据单位。该层规定了通过怎样的路径（所谓的传输路线）到达对方计算机，并把数据包传送给对方</em><br><em>链路层用来处理连接网络的硬件部分。（物理、硬件）</em></p><h3 id="TCP-IP-通信传输流（封装）："><a href="#TCP-IP-通信传输流（封装）：" class="headerlink" title="TCP/IP 通信传输流（封装）："></a>TCP/IP 通信传输流（封装）：</h3><p><img src="assets/1734402276217.png" alt="73440227621"></p><h2 id="与-HTTP-关系密切的协议-IP、TCP-和-DNS"><a href="#与-HTTP-关系密切的协议-IP、TCP-和-DNS" class="headerlink" title="与 HTTP 关系密切的协议: IP、TCP 和 DNS"></a>与 HTTP 关系密切的协议: IP、TCP 和 DNS</h2><pre><code>### IP 协议，网络层——传输</code></pre><p>​ IP 地址：节点被分配到的地址<br> MAC 地址：网卡所属的固定地址（ARP 协议——解析地址的协议，根据 IP 地址反查 MAC 地址）</p><pre><code>### TCP协议，传输层——分割，确认</code></pre><p>​ “三次握手”</p><h3 id="DNS-服务，应用层——域名与-IP-地址解析"><a href="#DNS-服务，应用层——域名与-IP-地址解析" class="headerlink" title="DNS 服务，应用层——域名与 IP 地址解析"></a>DNS 服务，应用层——域名与 IP 地址解析</h3><h2 id="URI-和-URL"><a href="#URI-和-URL" class="headerlink" title="URI 和 URL"></a>URI 和 URL</h2><h3 id="URI（统一资源标识符-Uniform-Resource-Identifier-）-URL（统一资源定位符-Uniform-Resource-Locator）"><a href="#URI（统一资源标识符-Uniform-Resource-Identifier-）-URL（统一资源定位符-Uniform-Resource-Locator）" class="headerlink" title="URI（统一资源标识符 Uniform Resource Identifier ）/ URL（统一资源定位符 Uniform Resource Locator）"></a>URI（统一资源标识符 Uniform Resource Identifier ）/ URL（统一资源定位符 Uniform Resource Locator）</h3><p>​ <strong>概念：</strong>URI 是一个用于标识某一资源的字符串，可以唯一地指代互联网上的任何资源。是一种广义的概念，包含了多种资源标识方法。它是一个通用的术语，旨在通过特定的字符串格式来识别资源，不管资源是否可直接访问或已知其具体位置。</p><p>​ <strong>组成：</strong>RI 通常由两部分组成。<br>方案（Scheme）：指示访问资源的协议或方法，通常以 <code>:</code> 分隔。例如，<a href="http://，ftp://，mailto：等。">http://，ftp://，mailto：等。</a><br>资源路径（Path）：指定了资源的具体位置或标识符，这部分可以是一个文件路径、数据库记录标识符等。</p><p>​ <strong>类型：</strong><br><strong>URL（统一资源定位符）</strong>：是一种特殊类型的 URI，它不仅标识资源，还指定了资源的位置以及访问该资源的方法（例如，HTTP、FTP 等）。<br><strong>URN（统一资源名称）</strong>：是一种 URI，它唯一标识某个资源，但不指定资源的位置。URN 的目的是标识资源，而不涉及如何获取该资源。</p><p>​ <strong>总结：</strong><br><strong>URI</strong> 是一个广义的术语，用于标识资源，可以是 URL 也可以是 URN。<br><strong>URL</strong> 是 URI 的一个子集，专注于描述资源的定位和访问方法。当你访问网站、下载文件、发送 HTTP 请求时，实际使用的都是 URL。<br><strong>URN</strong> 是 URI 的另一个子集，它提供了资源的永久标识，但不涉及资源的获取方式或位置。</p><h3 id="URI-格式"><a href="#URI-格式" class="headerlink" title="URI 格式"></a>URI 格式</h3><p>​ 表示指定的 URI，要使用涵盖全部必要信息的<strong>绝对 URI、绝对 URL 以及相对 URL</strong>。<br>（<strong>相对 URL</strong>，是指从浏览器中基本 URI 处指定的 URL，形如 /image/logo.gif。）</p><p>​ 绝对 URI：<img src="assets/1734404229555.png" alt="73440422955"></p>]]></content>
     
@@ -69,6 +56,19 @@
       
     <summary type="html">&lt;h1 id=&quot;第-1-章-了解-Web-及网络基础&quot;&gt;&lt;a href=&quot;#第-1-章-了解-Web-及网络基础&quot; class=&quot;headerlink&quot; title=&quot;第 1 章　了解 Web 及网络基础&quot;&gt;&lt;/a&gt;第 1 章　了解 Web 及网络基础&lt;/h1&gt;&lt;h2 id=&quot;网</summary>
       
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://mxs114514.github.io/posts/0.html"/>
+    <id>https://mxs114514.github.io/posts/0.html</id>
+    <published>2021-01-01T08:00:00.000Z</published>
+    <updated>2025-06-02T18:11:09.938Z</updated>
+    
     
     
     
