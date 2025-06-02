@@ -1,1 +1,1 @@
-var posts=["posts/1.html","posts/0.html","posts/4e32a295.html","posts/89407e9d.html","posts/7344.html"];function toRandomPost(){pjax.loadUrl("/"+posts[Math.floor(Math.random()*posts.length)])}
+var posts=[];function toRandomPost(){pjax.loadUrl("/"+posts[Math.floor(Math.random()*posts.length)])}
